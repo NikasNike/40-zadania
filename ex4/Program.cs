@@ -1,11 +1,30 @@
-﻿//ввести число и узнать какой день недели
-string [] ai ={"Понедельник", "Вторник", "среда",
- "четверг", "пятница", "суббота", "воскресенье"};
+﻿//по заданному номеру дня недели вывести его название
 
-Console.Write ("Введите число от 1 до 7: ");
+int a;
+Console.WriteLine ("Введите номер дня недели");
+a = Convert.ToInt32(Console.ReadLine ());
 
-int b = Convert.ToInt32(Console.ReadLine());
+// switch (s) вариает один с семинара
+// {
+//     case "1" Console.WriteLine ("Понедельник"); break;
+//     case "1" Console.WriteLine ("Вторник"); break;
+//       default Console.WriteLine ("Ошибочка вышла");}}}}}}
+// }
 
-int index = b - 1;
+// второй вариант
+// string[] days=new string[8];
+//days[1]="Понедельник"; а элемент ноль останется пустым
+//days[2]="вторник";
+//Console.WriteLine (days[days]);
 
-Console.WriteLine(ai[index]);
+if (a==1) Console.WriteLine ("Понедельник");{
+if (a==2) Console.WriteLine ("Вторник");{
+if (a==3) Console.WriteLine ("Среда");{
+if (a==4) Console.WriteLine ("Четверг");{
+if (a==5) Console.WriteLine ("Пятница");{
+if (a==6) Console.WriteLine ("Суббота");{
+if (a==7) Console.WriteLine ("Воскресенье");
+
+
+if (a>=8) Console.WriteLine ("Ошибочка вышла");}}}}}}
+
