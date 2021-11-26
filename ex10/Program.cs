@@ -1,5 +1,5 @@
-﻿
-Console.WriteLine("Ведите трех значное число");
+﻿//последняя цифра трех значного числа
+Console.WriteLine("Ведите трех значное число:");
 double n = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("Последняя цифра ");

@@ -1,4 +1,4 @@
-﻿//Большее и меньшее число
+﻿//Большее и меньшее число из двух
 Console.Write ("Введите число: " ); 
 double a = Convert.ToDouble(Console.ReadLine());
 

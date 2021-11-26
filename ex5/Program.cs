@@ -1,4 +1,4 @@
-﻿// Максимальное из 3
+﻿// Максимальное из 3 чисел
 Console.Write ("Введите число: " ); 
 double a = Convert.ToDouble(Console.ReadLine());
 
