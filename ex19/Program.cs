@@ -1,4 +1,5 @@
-﻿bool x=true;
+﻿// 18. Проверить истинность утверждения ¬(X ⋁ Y) = ¬X ⋀ ¬Y
+bool x=true;
 bool y=false;
 bool f1=!(x || y);
 bool f2=!x && !y;
